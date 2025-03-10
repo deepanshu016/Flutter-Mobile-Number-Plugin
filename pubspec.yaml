@@ -1,0 +1,23 @@
+name: mobile_number
+description: A Flutter plugin for fetching the device's mobile number or list sim cards data
+version: 2.1.1
+homepage: https://github.com/amorenew/Flutter-Mobile-Number-Plugin
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.amorenew.mobile_number
+        pluginClass: MobileNumberPlugin
